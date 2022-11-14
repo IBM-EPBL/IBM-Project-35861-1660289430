@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>About Page</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-light" style="background-color: #e3f2fd;">
+		<!-- Navbar content -->
+
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+					<a class="nav-link" href="{{url_for('about')}}">About</a>
+					<a class="nav-link" href="{{url_for('signin')}}">SignIn</a>
+					<a class="nav-link" href="{{url_for('signup')}}">SignUp</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<br><br>
+	<div>
+		<h4>
+			<b>Welcome to IBM!!!</B>
+                        <p>The International Business Machines Corporation (IBM) is an American multinational technology corporation headquartered in Armonk, New York, with operations in over 171 countries. The company began in 1911, founded in Endicott, New York, by trust businessman Charles Ranlett Flint, as the Computing-Tabulating-Recording Company (CTR) and was renamed "International Business Machines" in 1924. IBM is incorporated in New York.</p>
+                        <p>Currently we are the students of B E computer science and engineering in sethu institute of technology we have a knowledge on web development and currently we are ready to collbarate with opensource projects and working on node js.</p>
+		</h4>
+	</div>
+	
+</body>
+
+</html>
